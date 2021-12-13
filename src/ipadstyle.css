@@ -1,0 +1,97 @@
+/* cuando la pantalla es 768px o menos*/
+@media (max-width: 768px) {
+  /*header*/
+  #contenedor {
+    height: 100px;
+  }
+  h1 {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  #contenedor a {
+    margin-top: 35px;
+    font-size: 18px;
+  }
+  .totoro-run {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+  }
+  /*slider*/
+  .slider {
+    height: 400px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  #texto {
+    font-size: 18px;
+  }
+  /* botones filtrado */
+  .span {
+    margin-left: 15px;
+    font-size: 15px;
+  }
+  .span .fas {
+    font-size: 15px;
+    margin-top: 3px;
+  }
+  #opcionDirecProduc {
+    font-size: 10px;
+    width: 150px;
+    padding: 3px;
+  }
+  #opcionOrden {
+    font-size: 10px;
+    width: 150px;
+    padding: 3px;
+  }
+  .span2 {
+    margin-left: 15px;
+    font-size: 15px;
+  }
+  .buscador {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 13px;
+    width: 180px;
+  }
+  /* contenedor peliculas*/
+  h3 {
+    font-size: 28px;
+  }
+  .filmBox {
+    height: 270px;
+  }
+  .imagen {
+    height: 200px;
+    width: 150px;
+    margin-left: 18px;
+  }
+  .year {
+    font-size: 15px;
+  }
+
+  .titulo {
+    font-size: 15px;
+  }
+  .clase-score {
+    font-size: 15px;
+  }
+  .far {
+    font-size: 15px;
+  }
+  /* footer */
+  .redes a {
+    font-size: 25px;
+  }
+  .museo a {
+    font-size: 15px;
+  }
+  .museo {
+    display: flexbox;
+  }
+  .editores {
+    font-size: 15px;
+  }
+}

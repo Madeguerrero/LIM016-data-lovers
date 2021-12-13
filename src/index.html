@@ -1,12 +1,206 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
+    <meta charset="utf-8" />
+    <title>Studio Ghibli</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="ipadstyle.css" />
+    <link rel="stylesheet" href="mobilestyle.css" />
+    <script
+      src="https://kit.fontawesome.com/0c7c21cc95.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.js"
+      integrity="sha512-CWVDkca3f3uAWgDNVzW+W4XJbiC3CH84P2aWZXj+DqI6PNbTzXbl1dIzEHeNJpYSn4B6U8miSZb/hCws7FnUZA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
   <body>
+    <header id="contenedor">
+      <img src="img/totororun.gif" class="totoro-run" />
+      <a href="#destacadas" id="nuestra-pelicula"><p>Nuestras Peliculas</p></a>
+      <br />
+      <a href="#myChart" id="estadisticas">Estadisticas</a>
+      <h1>Animación Ghibli</h1>
+    </header>
+    <div class="contenedor-slider">
+      <div class="slider" id="slider">
+        <div class="img-pagina">
+          <img
+            src="img/slider1.jpg"
+            alt="imagen-de-pagina"
+            class="slider-img"
+          />
+        </div>
+        <div class="img-pagina">
+          <img src="img/slider2.jpg" al="imagen-de-pagina" class="slider-img" />
+        </div>
+        <div class="img-pagina">
+          <img src="img/slider3.jpg" al="imagen-de-pagina" class="slider-img" />
+        </div>
+        <div class="img-pagina">
+          <img src="img/slider4.jpg" al="imagen-de-pagina" class="slider-img" />
+        </div>
+        <div class="img-pagina">
+          <img src="img/slider5.jpg" al="imagen-de-pagina" class="slider-img" />
+        </div>
+      </div>
+      <div id="boton-right" class="slider-boton btn-right">&#62;</div>
+      <div id="boton-left" class="slider-boton btn -left">&#60;</div>
+    </div>
+    <main>
+      <br />
+      <div id="contenedor-2">
+        <br />
+        <h2>Bienvenidos</h2>
+        <p id="texto">
+          Pondremos a tu disposición una selección de peliculas que no puedes
+          dejar de ver y algunas curiosidades del Studio Ghibli.
+        </p>
+        <hr />
+        <section class="filtro">
+          <div class="filtroGrupo">
+            <div class="filtroBy" id="filtro1">
+              <span class="span">
+                <i class="fas fa-sliders-h"></i> Filtrar por</span
+              >
+              <select id="opcionDirecProduc">
+                <option disabled selected="">Elija una opcion</option>
+                <optgroup label="Director">
+                  <option class="Directores" value="Hayao Miyazaki">
+                    Hayao Miyazaki
+                  </option>
+                  <option class="Directores" value="Hiroyuki Morita">
+                    Hiroyuki Morita
+                  </option>
+                  <option class="Directores" value="Hiromasa Yonebayashi">
+                    Hiromasa Yonebayashi
+                  </option>
+                  <option class="Directores" value="Isao Takahata">
+                    Isao Takahata
+                  </option>
+                  <option class="Directores" value="Gorō Miyazaki">
+                    Gorō Miyazaki
+                  </option>
+                  <option class="Directores" value="Yoshifumi Kondō">
+                    Yoshifumi Kondō
+                  </option>
+                </optgroup>
+                <optgroup id="listProductor" label="Productor">
+                  <option class="Productores" value="Isao Takahata">
+                    Isao Takahata
+                  </option>
+                  <option class="Productores" value="Hayao Miyazaki">
+                    Hayao Miyazaki
+                  </option>
+                  <option class="Productores" value="Toru Hara">
+                    Toru Hara
+                  </option>
+                  <option class="Productores" value="Toshio Suzuki">
+                    Toshio Suzuki
+                  </option>
+                  <option class="Productores" value="Yoshiaki Nishimura">
+                    Yoshiaki Nishimura
+                  </option>
+                </optgroup>
+              </select>
+            </div>
+            <br />
+            <div class="filtroBy" id="filtro2">
+              <span class="span2">Ordenar por </span>
+              <select id="opcionOrden">
+                <option disabled selected="">Elija una opcion</option>
+                <optgroup id="lanzamiento" label="Fecha de Lanzamiento">
+                  <option class="lanzaAscendente" value="fecAsc">
+                    Fecha Ascendente
+                  </option>
+                  <option class="lanzaDescendente" value="fecDes">
+                    Fecha Descendete
+                  </option>
+                </optgroup>
+                <optgroup id="alfabeto" label="Alfabéticamente">
+                  <option class="ascend" value="alfaAsc">Título (A-Z)</option>
+                  <option class="descend" value="alfaDesc">Título (Z-A)</option>
+                </optgroup>
+                <optgroup id="scores" label="Score">
+                  <option class="scoreAscendente" value="scorAsc">
+                    Score Ascendente
+                  </option>
+                  <option class="scoreDescendente" value="scorDesc">
+                    Score Descendete
+                  </option>
+                </optgroup>
+              </select>
+            </div>
+          </div>
+          <br />
+          <div class="filtroGrupo">
+            <div id="busca">
+              <input
+                type="search"
+                placeholder="Buscar por pelicula...        "
+                autocomplete="off"
+                id="buscador"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+      <div id="destacadas">
+        <br />
+        <h3>Peliculas Ghibli</h3>
+        <section id="contenedor-destacadas"></section>
+      </div>
+      <section>
+        <div class="contenedor-estadisticas">
+          <br />
+          <h4>Estadisticas</h4>
+          <div id="chart1">
+            <br />
+            <span class="estadiScore"> Estadisticas por Score: </span>
+            <br />
+            <canvas id="myChart" width="400" height="400"></canvas>
+          </div>
+          <br />
+          <div id="chart2">
+            <span class="estadiLanza"
+              >Estadisticas por Fecha de Lanzamiento:
+            </span>
+            <br />
+            <canvas id="myChart2" width="400" height="400"></canvas>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="final">
+      <div class="redes">
+        <a
+          href="https://www.facebook.com/FansOfStudioGhibli"
+          class="fab fa-facebook-square"
+        ></a>
+
+        <a
+          href="https://www.instagram.com/ghibli.movies/?hl=es"
+          class="fab fa-instagram-square"
+        >
+        </a>
+        <a
+          href="https://twitter.com/theghiblifamily"
+          class="fab fa-twitter-square"
+        >
+        </a>
+      </div>
+      <span class="editores"
+        >Diseñada por Madeleine Guerrero and Carmen Tejada</span
+      >
+      <nav class="museo">
+        <a href="https://www.ghibli-museum.jp/en/"> Museo Ghibli </a>
+      </nav>
+    </footer>
     <div id="root"></div>
     <script src="main.js" type="module"></script>
+    <script src="chart.js" type="module"></script>
   </body>
 </html>
