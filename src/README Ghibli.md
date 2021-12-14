@@ -36,64 +36,148 @@ En este proyecto tendremos que construir una pagina web responsive con datos que
 
 ## 4. Realizacion del Diseño
 
+Para el proyecto se optó por la temática de una de las películas de Studio Ghibli, Mi vecino Totoro, ya que vimos el buen contraste de colores que nos permitiría transmitir la información de forma clara y precisa, y que a su vez pueda ser amigable ante la vista de nuestros usuarios.
+
 #### Prototipo de baja fidelidad
+
+     este prototipo fue realizado a mano y este seria la vista en desktop:
 
 #### Prototipo de alta fidelidad
 
+       Este prototipo fue realizado en `Figma` para aplicar colores
+
+### Historias de Usuario y criterios de aceptacion
+
+HU 1: yo COMO usuario QUIERO una web con las portadas de las peliculas PARA recordar que peliculas me gustan.
+
+    👉🏻 Criterios de aceptación:
+
+       * Darle una buena funcionalidad a nuestro carrusel de portada.
+       * obtener una buena posicion  y calidad de cada imagen .
+
+HU 2: yo COMO usuario QUIERO ver imformacion relevante PARA saber más de cada pelicula que me gusta.
+
+    👉🏻 Criterios de aceptación:
+
+       * Colocar en la pagina principal nombre de la pelicula, año de lanzamiento y el score.
+       * Mostrar cada pelicula con la fecha de lanzamiento,reseña, personajes,locaciones y vehiculos.
+
+HU 3: yo COMO usuario QUIERO ordenar y poder filtrar peliculas PARA ver de forma mas rapida las peliculas que me gustan.
+
+    👉🏻 Criterios de aceptación:
+
+       * Colocar botones de filtrado por Directores y Productores.
+       * Colocar botones de ordenado por score,fecha de lanzamiento y alfabeticamente.
+       * Implementar una barra de busqueda por peliculas.
+
+HU 4: yo COMO usuario QUIERO visualizar los datos en graficos estadisticos PARA tener informeción y ser un conocedor de las peliculas de Studio Ghibli.
+
+    👉🏻 Criterios de aceptación:
+
+      * Tener un mejor entendimiento de las gráficas estadísticas.
+      * Se puede identificar las estadísticas por score y fecha de lanzamiento de cada pelicula.
+      * Se puede visualizar las estadísticas con colores amigables.
+
+HU 5: yo COMO usuario Quiero poder visualizar la página web desde distintos dispositivos PARA tener acceso a la información desde cualquier lugar.
+
+    👉🏻 Criterios de aceptación:
+
+      * Es adatable para celulares y tablets.
+      * Es adaptable en diferentes desktops.
+
 ## 5. Pruebas Unitarias
 
-#### Testeos de usabilidad
-
-Durante el reto deberás hacer _tests_ de usabilidad con distintos usuarios, y
-en base a los resultados, deberás iterar tus diseños. Cuéntanos
-qué problemas de usabilidad detectaste a través de los _tests_ y cómo los
-mejoraste en tu propuesta final.
-
-### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
-
-Luego de diseñar tu interfaz de usuario deberás trabajar en su implementación.
-**No** es necesario que construyas la interfaz exactamente como la diseñaste.
-Tu tiempo de hacking es escaso, así que deberás priorizar
-
-Como mínimo, tu implementación debe:
-
-1. Mostrar la data en una interfaz: puede ser un card, una tabla, una lista,
-   etc.
-2. Permitir al usuario interactuar para obtener la infomación que necesita.
-3. Ser _responsive_, es decir, debe visualizarse sin problemas desde distintos
-   tamaños de pantallas: móviles, tablets y desktops.
-4. Que la interfaz siga los fundamentos de _visual design_.
-
-### Pruebas unitarias
-
-El _boilerplate_ de este proyecto no incluye Pruebas Unitarias (_tests_), así es
-que tendrás que escribirlas tú para las funciones encargadas de _procesar_,
-_filtrar_ y _ordenar_ la data, así como _calcular_ estadísticas.
-
-Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
-(_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
-(_ramas_) del archivo `src/data.js` que contenga tus funciones y está detallado
-en la sección de [Consideraciones técnicas](#srcdatajs).
+Para las pruebas Unitarias `(tests)`, creamos nuestras propias funciones, así como la configuración necesaria para ejecutar los tests usando el comando `npm test`. Logrando superar la cobertura mínima del 70% de statements, functions y lines, y un mínimo del 50% de branches.
 
 ## 6. Objectivos de aprendizaje
 
+### HTML
+
+- [x] **Uso de HTML semántico**
+
+### CSS
+
+- [x] **Uso de selectores de CSS**
+
+- [x] **Modelo de caja (box model): borde, margen, padding**
+
+- [x] **Uso de flexbox en CSS**
+
+### Web APIs
+
+- [x] **Uso de selectores del DOM**
+
+- [x] **Manejo de eventos del DOM (listeners, propagación, delegación)**
+
+- [x] **Manipulación dinámica del DOM**
+
+### JavaScript
+
+- [ ] **Diferenciar entre tipos de datos primitivos y no primitivos**
+
+- [x] **Arrays (arreglos)**
+
+- [x] **Objetos (key, value)**
+
+- [x] **Variables (declaración, asignación, ámbito)**
+
+- [x] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
+
+- [x] **Uso de bucles/ciclos (while, for, for..of)**
+
+- [x] **Funciones (params, args, return)**
+
+- [x] **Pruebas unitarias (unit tests)**
+
+- [x] **Módulos de ECMAScript (ES Modules)**
+
+- [x] **Uso de linter (ESLINT)**
+
+- [x] **Uso de identificadores descriptivos (Nomenclatura y Semántica)**
+
+- [ ] **Diferenciar entre expresiones (expressions) y sentencias (statements)**
+
+### Control de Versiones (Git y GitHub)
+
+- [x] **Git: Instalación y configuración**
+
+- [x] **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
+
+- [ ] **Git: Integración de cambios entre ramas (branch, checkout, fetch, merge, reset, rebase, tag)**
+
+- [x] **GitHub: Creación de cuenta y repos, configuración de llaves SSH**
+
+- [ ] **GitHub: Despliegue con GitHub Pages**
+
+- [ ] **GitHub: Colaboración en Github (branches | forks | pull requests | code review | tags)**
+
+### UX (User eXperience)
+
+- [x] **Diseñar la aplicación pensando en y entendiendo al usuario**
+
+- [x] **Crear prototipos para obtener feedback e iterar**
+
+- [x] **Aplicar los principios de diseño visual (contraste, alineación, jerarquía)**
+
+- [ ] **Planear y ejecutar tests de usabilidad**
+
 ## 7. Checklist
 
-- [ ] Usa VanillaJS.
-- [ ] Pasa linter (`npm run pretest`)
-- [ ] Pasa tests (`npm test`)
-- [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
+- [x] Usa VanillaJS.
+- [x] Pasa linter (`npm run pretest`)
+- [x] Pasa tests (`npm test`)
+- [x] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
       lines y branches.
-- [ ] Incluye _Definición del producto_ clara e informativa en `README.md`.
+- [x] Incluye _Definición del producto_ clara e informativa en `README.md`.
 - [ ] Incluye historias de usuario en `README.md`.
-- [ ] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
+- [x] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
       `README.md`.
-- [ ] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
+- [x] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
       en `README.md`.
 - [ ] Incluye link a Zeplin en `README.md`.
 - [ ] Incluye el listado de problemas que detectaste a través de tests de
       usabilidad en el `README.md`.
-- [ ] UI: Muestra lista y/o tabla con datos y/o indicadores.
-- [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
-- [ ] UI: Permite filtrar data en base a una condición.
-- [ ] UI: Es _responsive_.
+- [x] UI: Muestra lista y/o tabla con datos y/o indicadores.
+- [x] UI: Permite ordenar data por uno o más campos (asc y desc).
+- [x] UI: Permite filtrar data en base a una condición.
+- [x] UI: Es _responsive_.
