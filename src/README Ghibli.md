@@ -42,9 +42,24 @@ Para el proyecto se optó por la temática de una de las películas de Studio Gh
 
      este prototipo fue realizado a mano y este seria la vista en desktop:
 
+
+
+![prototipo-desktop_00_00](https://user-images.githubusercontent.com/91804406/146047243-376923ee-749d-4f7c-964a-75c46176f2c7.jpg)
+
 #### Prototipo de alta fidelidad
 
-       Este prototipo fue realizado en Figma para aplicar colores.
+       Este prototipo fue realizado en Figma para aplicar colores:
+
+
+![Captura de pantalla 2021-12-13 a la(s) 21 41 49](https://user-images.githubusercontent.com/91804406/146035642-e9bd4f1c-e822-4eba-976a-1affb735b972.png)
+
+![Captura de pantalla 2021-12-13 a la(s) 21 42 44](https://user-images.githubusercontent.com/91804406/146037545-bf7c8c85-8140-441b-8ffe-b9a99cdb0b9d.png)
+
+![Captura de pantalla 2021-12-14 a la(s) 17 08 37](https://user-images.githubusercontent.com/91804406/146046612-5b6d7e62-d416-4afe-90af-eaec15b8b0c6.png)
+
+![Captura de pantalla 2021-12-14 a la(s) 17 09 41](https://user-images.githubusercontent.com/91804406/146046654-d5b37b15-b612-480e-bcfb-d23bc59584b0.png)
+
+![Captura de pantalla 2021-12-14 a la(s) 17 10 39](https://user-images.githubusercontent.com/91804406/146046672-80b889e6-e3e1-48b3-9258-2ebbc1510c0b.png)
 
 ### Historias de Usuario y criterios de aceptacion
 
