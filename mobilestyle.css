@@ -1,0 +1,132 @@
+/* cuando la pantalla es 428px o menos */
+@media (max-width: 428px) {
+  /*header*/
+  h1 {
+    font-size: 90%;
+    margin-top: 5px;
+    display: flex;
+    align-items: baseline;
+  }
+  #contenedor {
+    height: 50px;
+  }
+  #contenedor a {
+    margin-right: 10px;
+    margin-top: 18px;
+    font-size: 60%;
+  }
+  .totoro-run {
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+  }
+  /* slider*/
+  .slider {
+    height: 50%;
+  }
+  .slider-boton {
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    font-size: 20px;
+    align-items: center;
+  }
+  #contenedor-2 {
+    margin-top: 5px;
+  }
+  h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  #texto {
+    margin: 10px;
+    font-size: 12px;
+  }
+  /* botones filtrado*/
+  .span {
+    margin-left: 15px;
+    font-size: 10px;
+  }
+  .span .fas {
+    font-size: 10px;
+    margin-top: 3px;
+  }
+  #opcionDirecProduc {
+    font-size: 8px;
+    margin: 15px;
+    margin-top: 5px;
+    width: 100px;
+    padding: 3px;
+  }
+  #opcionOrden {
+    font-size: 8px;
+    margin: 15px;
+    margin-top: 5px;
+    width: 100px;
+    padding: 3px;
+  }
+  .span2 {
+    margin-left: 15px;
+    font-size: 10px;
+  }
+  .buscador {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-left: 14px;
+    font-size: 8px;
+    width: 100px;
+  }
+  /* contenedor peliculas*/
+  h3 {
+    margin: 5px;
+    margin-top: 0px;
+    font-size: 15px;
+  }
+  .filmBox {
+    height: 280px;
+  }
+  .imagen {
+    height: 200px;
+    width: 120px;
+    margin-left: 40px;
+  }
+  .year {
+    font-size: 10px;
+  }
+
+  .titulo {
+    font-size: 10px;
+  }
+  .clase-score {
+    font-size: 10px;
+  }
+  .far {
+    font-size: 10px;
+  }
+
+  /* footer */
+  .redes a {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0px;
+  }
+  .museo a {
+    text-align: center;
+    display: flexbox;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin-right: 5px;
+    font-size: 60%;
+  }
+  .museo {
+    display: flexbox;
+  }
+  .editores {
+    font-size: 60%;
+    display: flexbox;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+}
