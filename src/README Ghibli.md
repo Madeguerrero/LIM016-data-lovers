@@ -41,10 +41,17 @@ Para el proyecto se optó por la temática de una de las películas de Studio Gh
 #### Prototipo de baja fidelidad
 
      este prototipo fue realizado a mano y este seria la vista en desktop:
+     
+     
 
 #### Prototipo de alta fidelidad
 
-       Este prototipo fue realizado en `Figma` para aplicar colores
+       Este prototipo fue realizado en `Figma` para aplicar colores:
+       
+  ![Captura de pantalla 2021-12-13 a la(s) 21 41 49](https://user-images.githubusercontent.com/91804406/146035642-e9bd4f1c-e822-4eba-976a-1affb735b972.png)
+
+
+ ![Captura de pantalla 2021-12-13 a la(s) 21 42 44](https://user-images.githubusercontent.com/91804406/146037545-bf7c8c85-8140-441b-8ffe-b9a99cdb0b9d.png)
 
 ### Historias de Usuario y criterios de aceptacion
 
