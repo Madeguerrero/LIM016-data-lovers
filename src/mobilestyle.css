@@ -20,6 +20,10 @@
     height: 20px;
     margin-top: 20px;
   }
+  #contenedor a #estadisticas {
+    font-size: 20px;
+    margin-top: 0px;
+  }
   /* slider*/
   .slider {
     height: 50%;
@@ -129,4 +133,5 @@
     justify-content: flex-start;
     align-items: baseline;
   }
+  /* ----- contenedor personajes ---- */
 }

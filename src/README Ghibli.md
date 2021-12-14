@@ -44,7 +44,7 @@ Para el proyecto se optó por la temática de una de las películas de Studio Gh
 
 #### Prototipo de alta fidelidad
 
-       Este prototipo fue realizado en `Figma` para aplicar colores
+       Este prototipo fue realizado en Figma para aplicar colores.
 
 ### Historias de Usuario y criterios de aceptacion
 
@@ -52,38 +52,46 @@ HU 1: yo COMO usuario QUIERO una web con las portadas de las peliculas PARA reco
 
     👉🏻 Criterios de aceptación:
 
-       * Darle una buena funcionalidad a nuestro carrusel de portada.
-       * obtener una buena posicion  y calidad de cada imagen .
+       - Darle una buena funcionalidad a nuestro carrusel de portada.
+       - Obtener una buena posicion  y calidad de cada imagen .
 
-HU 2: yo COMO usuario QUIERO ver imformacion relevante PARA saber más de cada pelicula que me gusta.
+HU 2: yo COMO usuario QUIERO ver información relevante PARA saber más de cada pelicula que me gusta.
 
     👉🏻 Criterios de aceptación:
 
-       * Colocar en la pagina principal nombre de la pelicula, año de lanzamiento y el score.
-       * Mostrar cada pelicula con la fecha de lanzamiento,reseña, personajes,locaciones y vehiculos.
+       - Colocar en la pagina principal nombre de la pelicula, año de lanzamiento y el score.
+       - Mostrar cada pelicula con la fecha de lanzamiento,reseña, personajes,locaciones y vehiculos.
 
 HU 3: yo COMO usuario QUIERO ordenar y poder filtrar peliculas PARA ver de forma mas rapida las peliculas que me gustan.
 
     👉🏻 Criterios de aceptación:
 
-       * Colocar botones de filtrado por Directores y Productores.
-       * Colocar botones de ordenado por score,fecha de lanzamiento y alfabeticamente.
-       * Implementar una barra de busqueda por peliculas.
+       - Colocar botones de filtrado por Directores y Productores.
+       - Colocar botones de ordenado por score,fecha de lanzamiento y alfabeticamente.
+       - Implementar una barra de busqueda por peliculas.
 
-HU 4: yo COMO usuario QUIERO visualizar los datos en graficos estadisticos PARA tener informeción y ser un conocedor de las peliculas de Studio Ghibli.
+HU 4: yo COMO usuario QUIERO visualizar los datos en graficos estadisticos PARA tener información y ser un conocedor de las peliculas de Studio Ghibli.
 
     👉🏻 Criterios de aceptación:
 
-      * Tener un mejor entendimiento de las gráficas estadísticas.
-      * Se puede identificar las estadísticas por score y fecha de lanzamiento de cada pelicula.
-      * Se puede visualizar las estadísticas con colores amigables.
+      - Tener un mejor entendimiento de las gráficas estadísticas.
+      - Se puede identificar las estadísticas por score y fecha de lanzamiento de cada pelicula.
+      - Se puede visualizar las estadísticas con colores amigables.
 
 HU 5: yo COMO usuario Quiero poder visualizar la página web desde distintos dispositivos PARA tener acceso a la información desde cualquier lugar.
 
     👉🏻 Criterios de aceptación:
 
-      * Es adatable para celulares y tablets.
-      * Es adaptable en diferentes desktops.
+      - Es adatable para celulares y tablets.
+      - Es adaptable en diferentes desktops.
+
+### Definición determinado
+
+- El proyecto estará en el repositorio de Git Hub.
+- El código pasa los tests de las pruebas unitarias.
+- La página web fue vista y aceptada por el usuario.
+- La página cumple con el prototipo diseñado.
+- El usuario brindó feedback al proyecto.
 
 ## 5. Pruebas Unitarias
 
